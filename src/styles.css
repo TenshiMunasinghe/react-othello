@@ -54,6 +54,19 @@ h6 {
 	font-size: 4.8vw;
 }
 
+.content-changed {
+	animation: changed 1.3s;
+}
+
+@keyframes changed {
+	from {
+		opacity: 0.1;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
 .hover {
 	cursor: not-allowed;
 }
